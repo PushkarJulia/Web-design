@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Анкета студента</title> 
+  </head>
+
+  <body bgcolor="#FFFFE0">
+
+    <h1 align=center>Анкета студента</h1>
+
+    <h2>1.Особисті дані</h2>
+    <table align="center" border="3" cellpadding="8" bordercolor="#DEB887" >
+    <tr bgcolor="#FFF8DC"	>
+        <td><b>Фото</b></td>
+
+        <td rowspan="5">
+            <img src="student.jpg" alt="Фото студента" width="180">
+        </td>
+    </tr>
+
+    <tr bgcolor=#FFF8DC	>
+        <td>
+            <b>Прізвище:</b>
+            Пушкар
+        </td>
+    </tr>
+
+    <tr bgcolor=#FFF8DC	>
+        <td>
+            <b>Ім'я:</b>
+            Юлія
+        </td>
+    </tr>
+
+    <tr bgcolor=#FFF8DC	>
+        <td>
+            <b>По батькові:</b>
+            Сергіївна
+        </td>
+    </tr>
+
+    <tr bgcolor=#FFF8DC	>
+        <td>
+            <b>Дата народження:</b>
+            26.11.2006
+        </td>
+    </tr>
+
+    <tr bgcolor=#FFF8DC	>
+        <td colspan="2">
+            <b>Електронна пошта:</b>
+            <i>iuliia.pushkar@student.sumdu.edu.ua</i>
+        </td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC"	>
+        <td colspan="2">
+            <b>Телефон:</b>
+            +380 XX XXX XXXX
+        </td>
+    </tr>
+    </table>
+    <hr>
+
+    <h2>2.Освіта</h2>
+    <table align="center" border="3" cellpadding="8" bordercolor="#DEB887" >
+    <tr bgcolor="#D2B48C">
+        <td><b>Період навчання</b></td>
+        <td><b>Навчальний заклад та спеціальність<b></td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC">
+        <td align="center">
+            2013 – 2024
+        </td>
+
+        <td>
+            Заклад загальної середньої освіти
+        </td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC">
+        <td align="center">
+            2024 – дотепер
+        </td>
+
+        <td>
+            Сумський державний університет, спеціальність «Комп'ютерні науки»
+        </td>
+    </tr>
+    </table>
+    <hr>
+    
+    <h2>3.Професійні навички</h2>
+    <table align="center" border="3" cellpadding="8" bordercolor="#DEB887" width="50%">
+    <tr bgcolor="#D2B48C">
+        <td><b>Технологія</b></td>
+        <td><b>Рівень володіння</b></td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC">
+        <td>HTML</td>
+        <td>Початковий</td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC">
+        <td>C++</td>
+        <td>Середній</td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC">
+        <td>C#</td>
+        <td>Середній</td>
+    </tr>
+
+    <tr bgcolor="#FFF8DC">
+        <td>Python</td>
+        <td>Середній</td>
+    </tr>
+
+    <tr bgcolor="#FFDEAD">
+        <td>Microsoft Word</td>
+        <td>Високий</td>
+    </tr>
+
+    <tr bgcolor="#FFDEAD">
+        <td>Microsoft Excel</td>
+        <td>Високий</td>
+    </tr>
+    </table>
+    <hr>
+    
+    <h2>4.Іноземні мови</h2>
+    <table align="center" border="3" cellpadding="8" bordercolor="#DEB887" width="50%">
+      <tr bgcolor="#D2B48C" align="center">
+        <td><b>Мова</b></td>
+        <td><b>Рівень</b></td>
+      </tr>
+      
+      <tr bgcolor="#FFF8DC" align="center">
+        <td>Англійська</td>
+        <td>Середній</td>
+      </tr>
+    </table>
+    <hr>
+
+    <h2>5.Професійні інтереси</h2>
+    <ol>
+      <li><font color="DarkSlateBlue">Web-програмування</font></li>
+      <li><font color="MediumOrchid">UX-UI дизайн</font></li>
+      <li><font color="Firebrick">Розробка програмного забезпечення</font></li>
+      <li><font color="DarkOliveGreen">Інформаційні технології</font></li>
+    </ol>
+    <hr>
+    
+    <h2>6.Хобі</h2>
+    <ul>
+      <li type="circle">Читання</li>
+      <li type="square">Музика</li>
+      <li type="disc">Фотографія</li>
+    </ul>
+    <hr>
+    
+    <a href="lab1_1.html">Лабораторна 1-2, завдання 1-5, 7-16</a>
+  </body>
+</html>
