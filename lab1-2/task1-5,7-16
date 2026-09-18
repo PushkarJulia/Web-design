@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Практична робота №1</title>
+  </head>
+
+  <body BGCOLOR="#FFFFE0">
+    
+    <!--Пункт 1 -->
+    <p align="center"> <b><u> Практична робота №1 </b></u> </p>
+    <p align="right"> <i> Виконала студентка: Пушкар Ю.С. </i></p>
+    <hr>
+    <p align="center" style="font-family: Arial, sans-serif;font-size: 24px;"> <font color=#8A2BE2><b> "Вітаю Вас на моїй web-сторінці!" </b> </p> </font>
+    <hr>
+    <p align="left"style="font-size: 20px;"> <b><s> Формула </b></s> </p>
+    <p align="left"> H<sub>2</sub>SO<sub>4</sub> </p>
+    
+    <!--Пункт 2 -->
+    <p><i>Містер і місіс Дурслі, що жили в будинку номер чотири на вуличці Прівіт-драйв, пишалися тим, що були, слава Богу, абсолютно нормальними.</i> 
+      <s><font color="blue">Кого-кого, але тільки не їх можна було б запідозрити, що вони пов'язані з таємницями чи дивами, бо такими дурницями вони не цікавилися.</s></font><br> 
+      <u style="background-color: yellow;">Містер Дурслі керував фірмою "Ґраннінґс", яка виготовляла свердла.</s></u>
+      <b><i>То був такий дебелий чолов'яга, що, здається, й шиї не мав, зате його обличчя прикрашали пишні вуса.</b></i> 
+      <font color="red">Натомість місіс Дурслі була худорлява, білява, а її шия була майже вдвічі довша, ніж у звичайних людей, і це ставало їй у великій пригоді: надто вже вона 
+      полюбляла зазирати через паркан, підглядаючи за сусідами.</font> 
+      <span style="background-color: #00FFFF;">Подружжя Дурслі мало синочка Дадлі, що був, на думку батьків, найкращим у світі.</span><br>
+      <u><b><font color="green">Дурслі мали все, що хотіли, а до того ж і один секрет, і найдужче вони боялися, що хтось довідається про нього.</u></b></font></p>
+
+    <!--Пункт 3 -->
+    <h2>Дні тижня</h2>
+    <ol>
+      <li><b>Понеділок</b></li> 
+      <li><font color="magenta">Вівторок</font></li>
+      <li><i>Середа</i></li>
+      <li><b><u>Четвер</b></u></li>
+      <li><s>П’ятниця</s></li>
+      <li>Субота</li>
+      <li>Неділя</li>
+    </ol>
+
+    <h3>Пори року</h3>
+    <ul>
+      <li type="a"><font color="Maroon">Зима</font></li>
+      <li type="a"><font color="Green">Весна</font></li>
+      <li type="a"><font color="MidnightBlue">Літо</font></li>
+      <li type="a"><font color="Orange">Осінь</font></li>
+    </ul>
+
+    <h4>Літні місяці</h4>
+    <ul>
+      <li type="disc">Червень</li>
+      <li type="square">Липень</li>
+      <li type="circle">Серпень</li>
+    </ul>
+    
+    <!--Пункт 4 -->
+    <H2 ALIGN=CENTER> Порівняльна характеристика сканерів</H2>
+    
+    <TABLE ALIGN=CENTER BORDER=3 CELLPADDING=3 CELLSPACING=0 bordercolor="#A0522D">
+      
+      <TR BGCOLOR=#D2B48C align=center>
+        <TD width=200> Сканер</TD>
+        <TD width=200>Тип</TD>
+        <TD width=150>Формат</TD>
+        <TD width=150>Тип скануючого елемента</TD>
+        <TD width=100>Оптична роздільна здатність</TD>
+        <TD width=100>Попереднє сканування, сек</TD>
+      </TR>
+      
+      <TR BGCOLOR=#FFF8DC>
+        <TD>HP ScanJet G2410</TD>
+        <TD> планшетний</TD>
+        <TD>А4</TD>
+        <TD>СCD</TD>
+        <TD>1200x1200</TD>
+        <TD>10</TD>
+      </TR>
+      
+      <TR BGCOLOR=#FFF8DC>
+        <TD>Epson Perfection V700</TD>
+        <TD> планшетний</TD>
+        <TD>А4</TD>
+        <TD>СCD</TD>
+        <TD>6400x9600</TD>
+        <TD>11</TD>
+      </TR>
+      
+      <TR BGCOLOR=#FFF8DC>
+        <TD>Canon CanoScan Lide 100 </TD>
+        <TD> планшетний</TD>
+        <TD>А4</TD>
+        <TD>CIS</TD>
+        <TD>2400x4800</TD>
+        <TD>14</TD>
+      </TR>
+      
+    </TABLE>
+
+    <!--Пункт 5 -->  
+    <h2 align=center>Варіант 13</h2>
+    <table border=2 bordercolor=#FF69B4 cellspacing=0 cellpadding=5 align=center bgcolor="#FFC0CB">
+      
+      <!-- 1 рядок -->
+      <tr align="center" valign="middle">
+        <td colspan="2">Комірка 1</td>
+        <td colspan="2">Комірка 2</td>
+        <td colspan="2">Комірка 3</td>
+        <td colspan="2">Комірка 4</td>
+        <td>Комірка 5</td>
+      </tr>
+
+      <!-- 2 рядок -->
+      <tr align="center" valign="middle">
+        <td colspan="2">Комірка 1</td>
+        <td colspan="2">Комірка 2</td>
+        <td colspan="2">Комірка 3</td>
+        <td colspan="2">Комірка 4</td>
+        <td>Комірка 5</td>
+      </tr>
+          
+      <!-- Рядок 3 -->
+      <tr align="center" valign="middle">
+        <td>Текст 1</td> 
+        <td colspan="2">Текст 2</td>
+        <td rowspan="2" colspan="2">Комірка</td>
+        <td colspan="2">Текст 3</td>
+        <td>Текст 4</td>
+        <td rowspan="2">Комірка</td>
+      </tr>
+        
+      <!-- Рядок 4 -->
+      <tr align="center" valign="middle">
+        <td>Текст 1</td>
+        <td colspan="2">Текст 2</td>
+        <td rowspan="2" colspan="2">Текст 3</td>
+        <td>Текст 4</td>
+      </tr>
+
+    </table>
+    <hr>
+
+    <!--Пункт 7-8-->
+    <form action="processorder.php" method=post>
+    <b> П. І. Пб. замовника: </b>
+    <input         type="text"             name="fam"                size=40>
+    <br>
+
+    <table border=0>
+      <tr>
+
+      <tr bgcolor=#cccccc>
+        <td align=center> Виріб</td>
+       <td align=center width=150> Найменування</td>
+       <td align=center width=20> Кількість </td>
+      </tr>
+
+      <tr>
+        <td align=center> Шини </td>
+        <td align=center><input type="text" name="tireqty" size=3 maxlength=3></td>
+        <td align=center><input type="text" name="tireqty" size=3 maxlength=3></td> 
+      </tr>
+
+      <tr>
+        <td align=center> Машинне мастило</td>
+        <td align=center><input type="text" name="oilty" size=3 maxlength=3></td>
+        <td align=center><input type="text" name="oilty" size=3 maxlength=3></td>
+      </tr>
+
+      <tr>
+        <td align=center> Свічки запалювання</td>
+        <td align=center><input type="text" name="Sparkqty" size=3 maxlength=3></td>
+        <td align=center><input type="text" name="Sparkqty" size=3 maxlength=3></td>
+      </tr>
+
+      <tr>
+        <td><input type=submit name=submit value="Ввести замовлення"></td>
+        <td><input type=reset name=reset value="Очистити форму"></td>
+      </tr>
+
+    </table>
+    </form>
+    <hr>
+
+    <!--Пункт 9-10-->
+    <p> Вітаємо Вас на нашому сайті </p> </head>
+
+    <FORM>
+    <P> Введіть логін:
+    <INPUT NAME="login">
+
+    <P> Введіть пароль:
+    <INPUT TYPE="password"  NAME="parol"> 
+
+    <p><input type=submit name=submit value="Підтвердити">
+    <input type=reset name=reset value="Очистити"></p>
+    </FORM>
+
+    <!--Пункт 11-13-->
+    <hr>
+    <H3 ALIGN=CENTER> Анкета користувача </H3> 
+    <P> Дайте відповіді на наступні запитання: 
+  
+    <FORM METHOD="POST" >
+      <P> Ваше ім'я: <INPUT NAME="name" SIZE="48"> 
+      <P> Стать чоловіча <INPUT NAME="gender" TYPE=RADIO VALUE="male">
+      <P> Стать жіноча <INPUT NAME="gender" TYPE=RADIO VALUE="female">
+      <P> Діти <INPUT NAME="family" TYPE=TEXT> 
+    
+      <UL>
+        <LI> Є <INPUT NAME="children" TYPE="checkbox" VALUE="yes"> 
+        <LI> Немає <INPUT NAME="children" TYPE="checkbox" VALUE="no"> 
+      </UL>
+
+      <p>Місто проживання: </p>
+      <SELECT NAME="Місто проживання"> 
+        <OPTION> Київ 
+        <OPTION selected> Суми 
+        <OPTION value="Other">Інше 
+      </SELECT>
+
+      <p> Напишіть додаткову інформацію про себе:</p>
+      <TEXTAREA NAME="text" COLS=30 ROWS=3></TEXTAREA>
+
+      <P>
+      <button name=" questionnaire" value="123" type="submit">Відправити</button> 
+      <button name=" questionnaire" value="123" type="reset">Очистити форму</button>
+
+    </FORM>
+    <hr>
+
+    <!--Пункт 14-->
+    <h2 align="center">Варіант 13</h2>
+    <h2 align="center">Форма відправлення відгуку про товар в інтернет-магазині.</h2>
+      
+    <form method="post">
+      <p><b>Введіть П.І.Пб.</b>
+      <input type="text" name="name" size="35"></p>
+
+      <p><b>Назва товару:</b> 
+      <input type="text" name="product" size="40"></p> 
+        
+      <p><b>Ваша оцінка товару:</b><br> 
+      1 <input type="radio" name="rating" value="1"><br> 
+      2 <input type="radio" name="rating" value="2"><br>
+      3 <input type="radio" name="rating" value="3"><br> 
+      4 <input type="radio" name="rating" value="4"><br> 
+      5 <input type="radio" name="rating" value="5"></p>
+
+      <p> <b>Що Вам сподобалося?</b><br> 
+      <input type="checkbox" name="quality" value="yes">Якість <br> 
+      <input type="checkbox" name="price" value="yes">Ціна <br> 
+      <input type="checkbox" name="design" value="yes">Дизайн <br> 
+      <input type="checkbox" name="delivery" value="yes">Швидка доставка </p>
+
+      <p><b>Чи замовили б Ви цей товар ще раз?</b><p>
+      <select name="box">
+        <option>Так
+        <option>Ні
+        <option value="other">Не впевнений/на
+      </select>
+
+      <p><b>Напишіть Ваші враження після користування продуктом:</b></p>
+      <textarea name="text" cols=30 rows=4></textarea>
+
+     <p> <input type=submit name=submit value="Надіслати відгук"> 
+     <input type=reset name=reset value="Очистити"></p>
+
+    </form>  
+    <hr>
+
+    <!--Пункт 14-16-->
+    <center> 
+      <p><img src="https://i.postimg.cc/XYHQVs4X/image.png" alt=Пошук"> 
+    </center></p>
+
+    <center>
+      <a href="http://google.com/" title="Google Search" >Знайти в Google</a>
+    </center>
+
+    <a href="lab1_2.html">Лабораторна 1-2, Анкета</a> 
+  </body>
+</html>
