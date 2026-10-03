@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Практична робота №3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">   
+      <div class="title">Практична робота №2</div>
+      <div class="autor">Практичну роботу виконала студентка групи ІТ-41/1 Пушкар Ю.С.</div>
+      <div class="topic">Застосування CSS для форматування HTML-документів. Робота із блоками</div>
+      <div class="definition">Стилем або CSS (Cascading Style Sheets, каскадні таблиці стилів) називається набір параметрів форматування, що застосовується до елементів документа, щоб змінити їх зовнішній вигляд.</div>
+    </div>
+
+    <div class="container">
+      <div class="title2">Варіант 13, завдання 2</div>
+      <div class="first">Верхня ліва синя комірка</div>
+      <div class="second">Верхня права синя комірка</div>
+      <div class="third">Нижня фіолетова комірка</div>
+
+      <div class="title3">Варіант 13, завдання 3</div>
+      <div class="task3">
+        <div class="blok1">Блок 1</div>
+        <div class="blok2">Текст всередині Блоку 2</div>
+        <div class="blok3">Текст всередині Блоку 3</div>
+      </div>
+    </div>
+  </body>
+</html>
