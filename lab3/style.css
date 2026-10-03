@@ -1,0 +1,147 @@
+body {
+  Background-color: #e1e1e1;
+}
+
+/*Завдання 1*/
+.wrapper { 
+  width: 940px; 
+  margin: 0 auto;
+}
+
+.title {
+  Text-align: center;
+  Text-decoration: underline; 
+  Font-weight: 600;
+  Font-size: 18px; Color: #333333;
+  padding-bottom: 50px;
+}
+
+.autor, .topic, .definition { 
+  Float: left; 
+  padding: 20px; 
+  margin: 5px; 
+  height: 200px;
+}
+
+.autor {
+  Width: 250px;
+  Background-color: #4583e6; 
+  Color: #ffffff;
+}
+
+.topic { 
+  Width: 250px;
+  Background-color: #336e20; 
+  Color: #ffffff;
+}
+
+.definition {
+  width: 250px;
+  background-color: #9a32d2; 
+  color: #ffffff;
+}
+
+/*Завдання 2*/
+.container {
+  width: 500px; 
+  margin: 0 auto;
+}
+
+.title2, .title3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  clear: both;
+}
+
+.first, .second, .third {
+  padding: 20px ; 
+  border: 2px solid #000;
+  text-align: center;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.first {
+  float: left;
+  width: 240px; 
+  height: 200px;
+  background-color: #0066CC;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.second {
+  float: left;
+  width: 240px; 
+  height: 200px;
+  background-color: #0066CC;
+  margin-bottom: 10px;
+}
+
+.third {
+  clear: both;
+  width: 490px;
+  height: 120px;
+  background-color: #4D194D;
+}
+
+/*Завдання 3*/
+.task3 {
+  position: relative;
+  width: 490px;
+  height: 300px;
+}
+
+.blok1, .blok2, .blok3 {
+  position: absolute;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+}
+
+.blok1 {
+  top: 0;
+  left: 0;
+  width: 130px;
+  background-color: #228B22;
+  color: #000;
+  z-index: 3;
+}
+
+.blok2 {
+  top: 65px;
+  left: 0;
+  width: 490px;
+  height: 180px;
+  background-color: #1E90FF;
+  color: #ffffff;
+  display: none;
+  z-index: 2;
+}
+
+.blok3 {
+  top: 0;
+  left: 133px;
+  width: 357px;
+  background-color: #800080;
+  color: #ffffff;
+  display: none;
+  z-index: 1;
+}
+
+.blok1:hover + .blok2 {
+  display: block;
+}
+
+.blok2:hover {
+  display: block;
+}
+
+.blok2:hover + .blok3 {
+  display: block;
+}
