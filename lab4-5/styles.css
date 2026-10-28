@@ -1,0 +1,178 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #8d6750;
+  background: #f8f5f2;
+  line-height: 1.6;
+}
+
+.main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 250px;
+  background: #F4A460 url("фон_1.png") center / cover no-repeat;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 56px;
+  letter-spacing: 8px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+.menu {
+  background: #b2733b;
+  padding: 10px;
+}
+
+#nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#nav li {
+  position: relative;
+}
+
+#nav a {
+  display: block;
+  padding: 8px 12px;
+  color: white;
+  background: #8f5726;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background: #61270c;
+}
+
+#nav ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 190px;
+  list-style: none;
+  background: #d09c79;
+  z-index: 10;
+}
+
+#nav li:hover ul,
+#nav li:focus-within ul {
+  display: block;
+}
+
+.content {
+  flex: 1;
+  padding: 35px 25px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.photorow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto 25px;
+}
+
+.photo {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.photo p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footer {
+  background: #b2733b;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .photorow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .header h1 {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 520px) {
+    .header {
+        height: 180px;
+    }
+
+    .header h1 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+
+    #nav ul {
+        position: static;
+    }
+
+    .photorow {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .content {
+        padding: 25px 12px;
+    }
+
+    .content h2 {
+        font-size: 26px;
+    }
+}
